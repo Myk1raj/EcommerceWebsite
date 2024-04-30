@@ -1,0 +1,84 @@
+.unique-add {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    background: rgb(175, 202, 240);
+}
+
+.unique-add-product-item {
+    width: 100%;
+    color: #0f4030;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.unique-add-product-item input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(107, 5, 105);
+    outline: none;
+    font-family: "poppins";
+    font-size: 16px;
+}
+
+.unique-add-product-price {
+    display: flex;
+    gap: 40px;
+}
+
+.unique-add-product-selector {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(107, 5, 105);
+    outline: none;
+    font-family: "poppins";
+    font-size: 16px;
+}
+
+.unique-add-product-thumbnail-image {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(107, 5, 105);
+    outline: none;
+    font-family: "poppins";
+    font-size: 16px;
+}
+
+.unique-add-button {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(87, 78, 220);
+    outline: none;
+    font-family: "poppins";
+    font-size: 16px;
+    background: rgb(9, 120, 210);
+    color: white;
+    cursor: pointer;
+}
+
+.unique-add-button:hover {
+    background: rgb(2, 38, 90);
+}
+
+.unique-hehe .unique-add {
+    margin-right: 400px;
+}
+.unique-hehe{
+    display: flex;
+}

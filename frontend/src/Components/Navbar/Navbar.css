@@ -1,0 +1,131 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(252, 127, 114);
+    color: #551c1c; 
+    box-shadow: 0 1px 3px -2px black;
+    height: 100px;
+    
+    border: 1px solid #ccc;
+    
+    
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .nav-logo p{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .nav-menu ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+  }
+  .nav-login {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+    .nav-login button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(159, 193, 248);
+        color: #080606; /* Changed text color */
+        cursor: pointer;
+        font-size: 16px;
+        
+    }
+    .nav-login button:hover {
+        background-color: rgb(22, 66, 97);
+        color: white;
+        
+    }
+    .nav-login button:active {
+        background-color: rgb(147, 241, 118);
+        
+    }
+    .counter{
+        background-color: red;
+        color: white;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        font-size: 0.8rem;
+        margin-top: -35px;
+        margin-left: -60px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .logo:hover{
+        cursor: pointer;
+    }
+    .Modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(168, 103, 103, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+    }
+    
+    .Modal_content {
+      width: 70%;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      border-radius: 50px;
+    }
+    

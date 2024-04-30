@@ -1,0 +1,102 @@
+.product{
+    display: flex;
+    margin: 0px 170px;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.imglist{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.imglist img{
+    height: 162px;
+    width: 150px;
+}
+.display{
+    width: 580px;
+    height: 700px;
+}
+.display img{
+    width: 90%;
+    height: 80%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}
+.rightstar{
+    display: flex;
+    gap: 10px;
+}
+.rightprices{
+    display: flex;
+    gap: 10px;
+}
+.right h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.rightprices .old{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(88, 116, 116);
+    margin: 0px;
+}
+
+.rightprices .new{
+    position: relative;
+    right: 64px;
+    bottom: 50px;
+}
+.rightdiscription{
+    font-weight: 500;
+
+}
+.rightsize{
+    margin-top: 55px;
+    color: rgb(88, 116, 116);
+    font-size: large;
+    
+    font-weight: 700;
+}
+.rigthsize1{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0px;
+    
+}
+.rigthsize1 div{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rigthsize1 div button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+} 
+.rigthsize1 div button:hover{
+    background: rgb(88, 116, 116);
+    color: white;
+}
+.rigthsize1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    gap: 20px;
+}

@@ -1,0 +1,60 @@
+.footer {
+    background: linear-gradient(0deg, #72ade0 0%, #b6a4af22 60%);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+    gap: 20px; /* Reduce the gap between elements */
+    padding: 50px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo p {
+    font-size: 34px; /* Adjust font size */
+    font-weight: bold;
+    color: rgb(17, 16, 16); /* Adjust font color */
+}
+
+.footerlinks {
+    display: flex;
+    gap: 30px; /* Increase the gap between links */
+    list-style: none;
+    font-size: 25px;
+    color: #0e0c0c;
+}
+
+.footerlinks li {
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.socialicon {
+    padding: 10px;
+    background-color: rgb(173, 132, 255);
+    border: 1px solid black;
+    border-radius: 50%; /* Make the icons circular */
+}
+
+.copy {
+    width: 100%;
+}
+
+.copy hr {
+    border-color: rgb(122, 30, 30); /* Adjust color of the horizontal rule */
+}
+
+.copy p {
+    font-size: 24px; /* Adjust font size */
+    color: #0e0c0c; /* Adjust color */
+}
