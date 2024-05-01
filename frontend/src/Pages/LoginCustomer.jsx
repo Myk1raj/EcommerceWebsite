@@ -21,7 +21,7 @@ const LoginCustomer = () => {
          console.log(loginDetails);
          console.log("login function",formData);
          let responseData;
-         await fetch('http://localhost:4000/login', {
+         await fetch('https://ecommerce-backend-bimx.onrender.com/login', {
             method: 'POST',
             headers:{
             Accept: 'application/json',
