@@ -129,7 +129,7 @@ export const ShopContext = createContext(null);
         const getTotalCartItems = () => {
             let total=0;
             console.log("tgus us cart uis",cartItems)
-            cartItems=[[0]];
+            let cartItems=[[0]];
             for(let i=0;i<300;i++){
                 total+=cartItems[i][0].quantity+cartItems[i][1].quantity+cartItems[i][2].quantity;
             }
