@@ -68,9 +68,6 @@ const LoginCustomer = () => {
                New in company? <Link to="/register-employee">Register</Link>
          </div>
          </div>
-
-         
-         
       </div>
     </div>
   )
