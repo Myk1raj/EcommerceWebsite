@@ -57,7 +57,7 @@ app.use('/images',express.static('upload/images'))
 app.post("/upload", upload.single('product'), (req, res) => {
     res.json({
         success: 1,
-        profile_url: `http://localhost:4000/images/${req.file.filename}`
+        profile_url: `http://ecommerce-backend-bimx.onrender.com/images/${req.file.filename}`
     })
 })
 
