@@ -65,7 +65,7 @@ export const ShopContext = createContext(null);
             console.log(cartItems);
             //api
             if(localStorage.getItem('auth_token')){
-                fetch('http://localhost:4000/add',{
+                fetch('https://ecommerce-backend-bimx.onrender.com/add',{
                     method:'POST',
                     headers:{
                         'Content-Type':'application/json',
@@ -86,7 +86,7 @@ export const ShopContext = createContext(null);
         // Frontend code (Assuming this is part of a React component)
         useEffect(() => {
             getTotalCartItems();
-            fetch('http://localhost:4000/allproducts', {
+            fetch('https://ecommerce-backend-bimx.onrender.com/allproducts', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -107,7 +107,7 @@ export const ShopContext = createContext(null);
                 setCartItems(getDefaultCart());
             }
             else{
-                fetch('http://localhost:4000/getcart', {
+                fetch('https://ecommerce-backend-bimx.onrender.com/getcart', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -163,7 +163,7 @@ export const ShopContext = createContext(null);
             //api
             if(localStorage.getItem('auth_token')){
                 console.log('remove');
-                fetch('http://localhost:4000/remove',{
+                fetch('https://ecommerce-backend-bimx.onrender.com/remove',{
                     method:'POST',
                     headers:{
                         'Content-Type':'application/json',

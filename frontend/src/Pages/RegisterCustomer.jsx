@@ -19,7 +19,7 @@ const RegisterCustomer = () => {
          console.log("register function",formData);
          let responseData;
 
-         await fetch('http://localhost:4000/createuser', {
+         await fetch('https://ecommerce-backend-bimx.onrender.com/createuser', {
             method: 'POST',
             headers:{
             Accept: 'application/json',

@@ -4,7 +4,7 @@ import Item from '../Items/Item'
 const Popular = () => {
     const [data_products,setData_products]=React.useState([]);
     React.useEffect(()=>{
-        fetch('http://localhost:4000/popularwomen',{
+        fetch('https://ecommerce-backend-bimx.onrender.com/popularwomen',{
             method:'GET',
             headers:{
                 'Content-Type':'application/json',

@@ -29,7 +29,7 @@ const Navbar = () => {
     }
     const hogaya=(e)=>{
       console.log("hogaya");
-      fetch('http://localhost:4000/addphone', {
+      fetch('https://ecommerce-backend-bimx.onrender.com/addphone', {
         method: 'POST',
         headers:{
           Accept: 'application/json',
@@ -51,7 +51,7 @@ const Navbar = () => {
       
       if(localStorage.getItem('auth_token')){
         console.log("token is there");
-        fetch('http://localhost:4000/getinfo',{
+        fetch('https://ecommerce-backend-bimx.onrender.com/getinfo',{
             method:'GET',
             headers:{
                 'Content-Type':'application/json',

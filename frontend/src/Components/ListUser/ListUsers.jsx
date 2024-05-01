@@ -11,7 +11,7 @@ const ListUser = () => {
   const [allUsers, setAllUsers] = useState([]);
   const [phoneNumbers, setPhoneNumbers] = useState([]);
   const getphoneNumbers = async (username) => {
-    await fetch('http://localhost:4000/getphone', {
+    await fetch('https://ecommerce-backend-bimx.onrender.com/getphone', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -27,7 +27,7 @@ const ListUser = () => {
 
 
   const fetchUsers = async () => {
-    await fetch('http://localhost:4000/listusers')
+    await fetch('https://ecommerce-backend-bimx.onrender.com/listusers')
       .then((resp) => resp.json())
       .then((data) => {
         setAllUsers(data);
@@ -35,7 +35,7 @@ const ListUser = () => {
   };
 
   const removeUser = async (username) => {
-    await fetch('http://localhost:4000/removephone', {
+    await fetch('https://ecommerce-backend-bimx.onrender.com/removephone', {
         method: 'POST',
         headers: {
             Accept: 'application/json',
@@ -47,7 +47,7 @@ const ListUser = () => {
             console.log(data);
         });
 
-    await fetch('http://localhost:4000/removeuser', {
+    await fetch('https://ecommerce-backend-bimx.onrender.com/removeuser', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

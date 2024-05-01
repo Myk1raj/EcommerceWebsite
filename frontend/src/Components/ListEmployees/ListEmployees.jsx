@@ -8,7 +8,7 @@ const ListEmployee = () => {
   const [allEmployees, setAllEmployees] = useState([]);
 
   const fetchEmployees = async () => {
-    await fetch('http://localhost:4000/listemployees')
+    await fetch('https://ecommerce-backend-bimx.onrender.com/listemployees')
       .then((resp) => resp.json())
       .then((data) => {
         setAllEmployees(data);
@@ -16,7 +16,7 @@ const ListEmployee = () => {
   };
 
   const removeEmployee = async (username) => {
-    await fetch('http://localhost:4000/removeemployee', {
+    await fetch('https://ecommerce-backend-bimx.onrender.com/removeemployee', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

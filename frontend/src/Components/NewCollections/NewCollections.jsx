@@ -4,7 +4,7 @@ import Item from '../Items/Item'
 const NewCollections = () => {
   const [new_collections,setNewCollections]=React.useState([]);
   React.useEffect(()=>{
-    fetch('http://localhost:4000/newcollection',{
+    fetch('https://ecommerce-backend-bimx.onrender.com/newcollection',{
       method:'GET',
       headers:{
         'Content-Type':'application/json',

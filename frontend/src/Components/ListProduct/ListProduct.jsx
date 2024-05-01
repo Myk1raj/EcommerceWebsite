@@ -8,7 +8,7 @@ const ListProduct = () => {
   const [allproducts,setAllproducts]=useState([]);
 
   const fetchInfo=async ()=>{
-    await fetch('http://localhost:4000/allproducts').then((resp) => resp.json()).then((data)=>{
+    await fetch('https://ecommerce-backend-bimx.onrender.com/allproducts').then((resp) => resp.json()).then((data)=>{
       
       setAllproducts(data);
     })
@@ -16,7 +16,7 @@ const ListProduct = () => {
 
   const remove_product=async (id)=>{
 
-    await fetch('http://localhost:4000/removeproduct', {
+    await fetch('https://ecommerce-backend-bimx.onrender.com/removeproduct', {
       method: 'POST',
       headers:{
         Accept: 'application/json',
