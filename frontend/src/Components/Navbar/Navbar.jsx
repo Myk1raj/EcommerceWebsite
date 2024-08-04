@@ -112,7 +112,7 @@ const Navbar = () => {
     >
       <div style={{ textAlign: 'center' }}>
         <h1 style={{ fontSize: '30px' }}>NAME: {user.name}</h1>
-        <h1 style={{ fontSize: '30px' }}>USERNAME: {user.username} 2</h1>
+        <h1 style={{ fontSize: '30px' }}>USERNAME: {user.username} </h1>
         <h1 style={{ fontSize: '30px' }}>ADD PHONE NUMBERS : </h1>
       </div>
       <form>

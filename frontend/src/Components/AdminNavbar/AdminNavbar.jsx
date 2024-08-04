@@ -35,9 +35,9 @@ const Navbar = () => {
       }}
     >
       <div style={{ textAlign: 'center' }}>
-        <h1 style={{ fontSize: '30px' }}>NAME: </h1>
-        <h1 style={{ fontSize: '30px' }}>USERNAME: 2</h1>
-        <h1 style={{ fontSize: '30px' }}>BRANCH : </h1>
+        <h1 style={{ fontSize: '30px' }}>NAME: ....in progress</h1>
+        <h1 style={{ fontSize: '30px' }}>USERNAME: ....in progress </h1>
+        <h1 style={{ fontSize: '30px' }}>BRANCH :  ....in progress </h1>
         <h1 style={{ fontSize: '30px' }}>ADD PHONE NUMBERS : </h1>
       </div>
       <form>
