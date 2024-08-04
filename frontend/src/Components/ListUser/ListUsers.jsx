@@ -99,49 +99,7 @@ const ListUser = () => {
         })}
       </div>
     </div>
-    <Modal
-      isOpen={modalIsOpen}
-      onRequestClose={() => setModalIsOpen(false)}
-      style={{
-        overlay: {
-          backgroundColor: 'rgba(10, 10, 10, 0.7)',
-        },
-        content: {
-          width: '30%',
-          height: '50%',
-          margin: 'auto',
-          borderRadius: '20px',
-          border: 'none',
-          padding: '20px',
-          background: '#fff',
-          boxShadow: '1px 1px 4px 8px rgba(0, 0, 0, 0.1)',
-        },
-      }}
-    >
-      <div style={{ textAlign: 'center' }}>
-        <h1 style={{ fontSize: '30px',margin: "50px" }}>Phone Numbers </h1>
-      </div>
-      <div>
-        {phoneNumbers.length === 0 ?<div style={{
-          display:"flex",
-          justifyContent:"center",
-          alignItems:"center",
-          height:"100%"
-        
-        }}><h1>No phone numbers found</h1></div>:
-           phoneNumbers.map((phone, index) => {
-            return (
-              <div className="phone-item" style={{width:"100%",display:"flex",justifyContent:"center",marginBottom:"20px"}} key={index}>
-                <h3>{phone}</h3>
-              </div>
-            );
-          })
-        }
-       
-
-      </div>
-      
-    </Modal>
+    
   </div>
 </>
 
